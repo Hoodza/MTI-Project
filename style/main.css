@@ -609,6 +609,7 @@ nav {
 }
 
 .imgs-work {
+    /* overflow: hidden; */
     width: 50%;
     display: inline-block;
 }
@@ -620,8 +621,9 @@ nav {
 }
 
 .our-work a {
+    overflow: auto;
     display: block;
-    border: 1px solid rgb(234 234 234);
+    border: 1px solid transparent;
     border-radius: 35%;
     padding: 13px;
 }
